@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(164, 166, 157);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+.container {
+    background-color: #1e1e1e;
+    padding: 25px;
+    border-radius: 10px;
+    width: 350px;
+    height: 500px;
+    box-shadow: 0 4px 12px rgba(100, 100, 10, 10);
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Black Ops One;
+}
+.input-group{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+input{
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #363636;
+    border-radius: 5px;
+    background-color: #2a2a2a;
+    color: #d8f937;    
+}
+button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(75, 58, 58);
+    color: rgb(252, 253, 255);
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color: darkolivegreen;
+}
+
